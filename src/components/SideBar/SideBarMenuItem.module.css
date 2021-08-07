@@ -1,0 +1,31 @@
+.side-bar_item {
+    list-style: none;
+    height: 60px;
+    width: 280px;
+    display: flex;
+    align-items: center;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+
+    letter-spacing: 0.1px;
+
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.side-bar_item img{
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+.side-bar_item_bill {
+    position: relative;
+    left: 40px;
+}
+
+.side-bar_item_selected{
+    background-color: #3F0E40;
+    color: #FFFFFF;
+}

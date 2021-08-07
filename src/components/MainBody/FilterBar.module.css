@@ -1,0 +1,62 @@
+.filter-bar {
+    position: absolute;
+    left: 50px;
+    top: 160px;
+    margin: 0;
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+
+    width: 1100px;
+    height: 86px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background: #ffffff;
+}
+.filter-bar input {
+    padding: 5px 22px;
+    width: 900px;
+    height: 100%;
+    font-size: 30px;
+    background: #f8f8f8;
+    opacity: 0.70;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+input::placeholder {
+    display: flex;
+    align-items: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    opacity: 1;
+    letter-spacing: 0.15px;
+
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.filter-bar button {
+    position: absolute;
+    width: 185.36px;
+    height: 50.75px;
+    right: 5px;
+    background: #3f0e40;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.filter-bar button span {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    /* line-height: 24px; */
+    /* or 120% */
+
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+
+    color: #fefefe;
+}
